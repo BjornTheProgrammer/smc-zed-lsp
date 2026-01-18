@@ -1,0 +1,15 @@
+id = "smc-lsp"
+name = "SMC LSP"
+description = "A language server for the SMC assembly language."
+version = "0.1.0"
+schema_version = 1
+authors = ["Bjorn Beishline"]
+repository = "https://github.com/BjornBeishline/smc-zed-lsp"
+
+[language_servers.smc-lsp]
+name = "SMC Language Server"
+languages = ["SMC"]
+
+[grammars.asm]
+repository = "https://github.com/RubixDev/tree-sitter-asm"
+rev = "839741fef4dab5128952334624905c82b40c7133"

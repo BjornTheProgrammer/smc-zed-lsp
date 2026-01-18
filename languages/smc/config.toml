@@ -1,0 +1,5 @@
+name = "SMC"
+grammar = "asm"
+path_suffixes = ["tasm", "smc"]
+line_comments = ["# ", "; ", "// "]
+block_comment = ["/* ", " */"]
