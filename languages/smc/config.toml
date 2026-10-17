@@ -1,5 +1,5 @@
 name = "SMC"
 grammar = "asm"
-path_suffixes = ["tasm", "smc"]
+path_suffixes = ["tasm", "smc", "lasm"]
 line_comments = ["# ", "; ", "// "]
 block_comment = ["/* ", " */"]
