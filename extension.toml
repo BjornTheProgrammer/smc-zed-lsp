@@ -1,10 +1,10 @@
 id = "smc-lsp"
 name = "SMC LSP"
-description = "A language server for the SMC assembly language."
+description = "SMC assembly support. Syntax highlighting and the smc-lsp language server."
 version = "0.1.0"
 schema_version = 1
 authors = ["Bjorn Beishline"]
-repository = "https://github.com/BjornBeishline/smc-zed-lsp"
+repository = "https://github.com/BjornTheProgrammer/smc-zed-lsp"
 
 [language_servers.smc-lsp]
 name = "SMC Language Server"
