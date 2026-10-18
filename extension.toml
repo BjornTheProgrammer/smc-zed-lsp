@@ -10,6 +10,7 @@ repository = "https://github.com/BjornBeishline/smc-zed-lsp"
 name = "SMC Language Server"
 languages = ["SMC"]
 
-[grammars.asm]
-repository = "https://github.com/RubixDev/tree-sitter-asm"
-rev = "839741fef4dab5128952334624905c82b40c7133"
+[grammars.smc]
+repository = "https://github.com/BjornTheProgrammer/smc-zed-lsp"
+rev = "cc19ad82a6c985dc134ce72a9a0acae5e077d17a"
+path = "grammar"
